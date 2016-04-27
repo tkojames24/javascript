@@ -5,7 +5,7 @@ var a = prompt("Enter a temp in Fahrenheit");
 var b;
 //convert the number to C and round whole numbers
 b = Math.round((a - 32) * 5/9);
-//check if input is numbrr
+//check if input is number
 if(isNaN(b)){
 // if not number alert
 	alert("Pease put in a number.");
